@@ -8,9 +8,9 @@ Data source : https://www.kaggle.com/c/boston-housing
 
 
 Preriquisites:
-    -Docker hub account
-    -CircleCI account
-    -You should have Python 3.7 available in your host.
+    - Docker hub account
+    - CircleCI account
+    - You should have Python 3.7 available in your host.
     
     
 
@@ -40,9 +40,11 @@ Steps
 
 
 RUNNING PYTHON SCRIPTS
--python3 -m pip install --user virtualenv
--source .devops/bin/activate
--make install // install the neccessary dependencies
+- python3 -m pip install --user virtualenv
+- source .devops/bin/activate
+- make install // install the neccessary dependencies
+- 
+
 Runnng the app:
  standalone -    python app.py
  Docker -    ./run_docker.sh
@@ -50,14 +52,14 @@ Runnng the app:
 
 
 Summary of files
-.circleci - contains the configuration file for CicleCi in yaml format
-model_data - Data used in the project
-output_txt_files - contains the output of the kuberenetes and docker execution
-dockerfile - configuration for docker
-makefile - contains instructions on environment setup and lint tests
-cmd.txt - history of some the commands used
-cmd4.txt - history of some the commands used
-resize.sh - commands for resizing the volume as needed
-run_kubernetes.sh - running kubernetes
-upload_docker.sh - uploading the docker image to docker hub
-run_docker.sh - building the docker image
+- .circleci - contains the configuration file for CicleCi in yaml format
+- model_data - Data used in the project
+- output_txt_files - contains the output of the kuberenetes and docker execution
+- dockerfile - configuration for docker
+- makefile - contains instructions on environment setup and lint tests
+- cmd.txt - history of some the commands used
+- cmd4.txt - history of some the commands used
+- resize.sh - commands for resizing the volume as needed
+- run_kubernetes.sh - running kubernetes
+- upload_docker.sh - uploading the docker image to docker hub
+- run_docker.sh - building the docker image
