@@ -1,0 +1,69 @@
+    1  cd DevOps_Microservices-master/
+    2  bash resize.sh
+    3  cd supporting-material
+    4  bash resize.sh
+    5  bash resize.sh 100
+    6  cd ..
+    7  cd project-ml-microservice-kubernetes/
+    8  bash resize.sh 100
+    9  make setup
+   10  create python virtualenv & source lt
+   11  make setup
+   12  # source ~/.devops/bin/activate
+   13  source ~/.devops/bin/activate
+   14  make install
+   15  make lint
+   16  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   17  sudo install minikube-linux-amd64 /usr/local/bin/kubectl
+   18  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   19  sudo install minikube-linux-amd64 /usr/local/bin/kubectl
+   20  curl -LO https://storage.googleapis.com/kubernetes-release/release/"curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt"/bin/linux/amd64/kubectl
+   21  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+   22  sudo chmod +x ./kubectl
+   23  sudo mv ./kubectl /usr/local/bin/kubectl
+   24  sudo chmod +x /bin/hadolint
+   25  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   26  decker version
+   27  docker version
+   28  make lint
+   29  bash run_docker.sh
+   30  docker build --help
+   31  docker login-u wairimu14b
+   32  make setup
+   33  cd project-ml-microservice-kubernetes/
+   34  make setup
+   35  source ~/.devops/bin/activate
+   36  docker login -u wairimu14b
+   37  bash run_docker.sh
+   38  docker push wairimu14b/devops:devops
+   39  docker push wairimu14b/devops
+   40  docker push firstimage
+   41  docker version
+   42  cd project-ml-microservice-kubernetes/
+   43  make setup
+   44  source ~/.devops/bin/activate
+   45  bash make_prediction.sh
+   46  docker login -u wairimu14b
+   47  bash run_docker.sh
+   48  touch docker_out.txt
+   49  docker image ls
+   50  docker run -it devops bash
+   51  cd project-ml-microservice-kubernetes/
+   52  make setup
+   53  /home/ec2-user//.devops/bin/activate
+   54  make setup
+   55  source ~/.devops/bin/activate
+   56  bash upload_docker.sh
+   57  docker image ls
+   58  bash upload_docker.sh
+   59  bash run_docker.sh
+   60  docker image ls
+   61  cd project-ml-microservice-kubernetes/
+   62  make setup
+   63  docker image ls
+   64  source ~/.devops/bin/activate
+   65  bash_upload_docker.sh
+   66  bash upload_docker.sh
+   67  minikube start
+   68  bash run_kubernetes.sh
+   69  history > cmd.txt

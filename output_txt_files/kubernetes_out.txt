@@ -1,1 +1,20 @@
-<paste log output from Kubernetes-mediated prediction, here>
+//run kubernetes
+(.devops) voclabs:~/environment/project-ml-microservice-kubernetes $ bash run_kubernetes.sh
+error: unknown flag: --generator
+See 'kubectl run --help' for usage.
+NAME     READY   STATUS    RESTARTS   AGE
+devops   1/1     Running   0          40s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+
+//Make predictions
+(.devops) voclabs:~/environment/project-ml-microservice-kubernetes $ bash make_prediction.sh                                                                      
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
